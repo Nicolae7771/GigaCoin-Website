@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" rx="28" fill="#0d0d0d"/>
+  <g font-family="Arial, sans-serif">
+    <circle cx="150" cy="160" r="56" fill="#171717" stroke="#d4a54a" stroke-width="4"/>
+    <text x="150" y="170" text-anchor="middle" fill="#ffd980" font-size="26">TOKEN</text>
+    <rect x="250" y="108" width="125" height="100" rx="18" fill="#171717" stroke="#d4a54a" stroke-width="4"/>
+    <text x="312" y="150" text-anchor="middle" fill="#ffd980" font-size="22">GEAR</text>
+    <text x="312" y="180" text-anchor="middle" fill="#fff4d3" font-size="14">Cosmetics</text>
+    <rect x="430" y="108" width="125" height="100" rx="18" fill="#171717" stroke="#d4a54a" stroke-width="4"/>
+    <text x="492" y="150" text-anchor="middle" fill="#ffd980" font-size="22">EVENTS</text>
+    <text x="492" y="180" text-anchor="middle" fill="#fff4d3" font-size="14">Tournaments</text>
+    <line x1="206" y1="160" x2="250" y2="160" stroke="#ffd67a" stroke-width="5"/>
+    <line x1="375" y1="160" x2="430" y2="160" stroke="#ffd67a" stroke-width="5"/>
+    <text x="300" y="300" text-anchor="middle" fill="#d6c19a" font-size="28">Reward Ecosystem Concept</text>
+  </g>
+</svg>

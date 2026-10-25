@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" rx="28" fill="#0d0d0d"/>
+  <g font-family="Arial, sans-serif" fill="#f5e7c5">
+    <rect x="60" y="110" width="110" height="110" rx="18" fill="#1b1b1b" stroke="#d0a048"/>
+    <text x="115" y="148" text-anchor="middle" font-size="22">ROOKIE</text>
+    <text x="115" y="178" text-anchor="middle" font-size="38">I</text>
+    <rect x="245" y="85" width="110" height="135" rx="18" fill="#1b1b1b" stroke="#d0a048"/>
+    <text x="300" y="125" text-anchor="middle" font-size="22">CONTENDER</text>
+    <text x="300" y="162" text-anchor="middle" font-size="38">II</text>
+    <rect x="430" y="60" width="110" height="160" rx="18" fill="#1b1b1b" stroke="#d0a048"/>
+    <text x="485" y="100" text-anchor="middle" font-size="22">GIGA</text>
+    <text x="485" y="142" text-anchor="middle" font-size="38">III</text>
+    <line x1="170" y1="165" x2="245" y2="152" stroke="#ffd67a" stroke-width="5"/>
+    <line x1="355" y1="152" x2="430" y2="140" stroke="#ffd67a" stroke-width="5"/>
+    <polygon points="239,152 225,145 227,160" fill="#ffd67a"/>
+    <polygon points="424,140 410,133 412,148" fill="#ffd67a"/>
+    <text x="300" y="300" text-anchor="middle" font-size="28" fill="#d6c19a">Skill Progression & Ranking Concept</text>
+  </g>
+</svg>
