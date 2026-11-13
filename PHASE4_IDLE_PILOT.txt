@@ -1,0 +1,9 @@
+GIGACOIN — PHASE 4 IDLE PILOT
+
+Four new reference-based Giga Champion idle frames. RGBA PNG 512x512; common scale; bottom alpha aligned at y=448 and foot midpoint near x=256. Facing right, mirrored by renderer. This is a visual pilot, not the full animation set. Generated art may vary slightly from the canonical portrait and poses are not hand-animated in-betweens.
+
+INSTALL: Extract into a COPY of the Phase 3 website root; merge game/ and overwrite the manifest and sprite renderer. The manifest enables idle only for Giga Champion. All other states and fighters retain procedural fallback. Mixed visuals are expected during movement and attacks; do not publish as a polished release.
+
+CHECKS: 6 existing combat-core tests passed; static audit passed; sprite validator reports 4 valid, 486 missing as expected. Mock Canvas/Image renderer test passed for frame cycling, facing mirror, fallback and absence of missing-state requests. Chromium local navigation blocked by administrator; no actual arena screenshot or live gameplay validation.
+
+NEXT: Test Giga Champion in Training, idle, moving, attacking and facing both directions. Approve scale and art, then author consistent walk/run, jab, block and other states. 98 frames per fighter, 490 total. Phase 3 renderer documentation lists 102 in error; actual manifest totals 98.

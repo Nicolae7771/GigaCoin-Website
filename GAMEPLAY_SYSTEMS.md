@@ -1,0 +1,15 @@
+# Gameplay systems
+
+- Five canonical fighters use the approved character names and menu art. Speed, health, damage scaling, move definitions, special behavior and CPU tendencies differ by fighter.
+- A 60 Hz fixed-step simulation updates movement, stamina, round time, attack windows and CPU behavior. Rendering uses requestAnimationFrame.
+- Damage only resolves during active attack frames, while the attacker faces the opponent and the attack's distance/vertical checks pass. Hit events are keyed so each hit event can damage once. Body contact does no damage. Low attacks can miss airborne targets; overhead/aerial attacks interact with crouching rules. Hitboxes can be shown with `?debug=1` or F3.
+- Giga Champion leaps and applies a nearby grounded landing shockwave; Viper Dash advances and has three separately keyed hit events; Volt Lucha launches and can hit on descent; Titan Rex stays planted with a wide ground-only shockwave that a jump avoids; Nova Blaze uses four nearby multi-kick/starburst hit events. Each multi-hit special divides its configured 32 base damage across its hit events.
+- Fighters have health, stamina and special meter. Ordinary attacks spend stamina; valid hits and blocks build meter. Specials require and spend 100 meter. Attack startup/recovery, knockdown/recovery states, 100 ms late-recovery input buffering, ring bounds and body spacing are modeled separately from drawing.
+- Quick Match uses first-to-two 90-second rounds with KO, remaining-health percentage timeout, and tied-round replay. Training gives no XP or credits. CPU Tournament is a persistent three-bout local bracket with a one-time 300 Arena Credit completion bonus.
+- Completed Quick Match/tournament wins award 100 XP and 40 credits; losses award 40 XP and 10 credits. Training and abandoned matches settle no rewards. Rewards are attached to a generated completed match ID and bounded save-side settlement list.
+- Versioned localStorage uses `gigacoin_arena_save_v1` and migrates the prior `gigaArenaSave` structure. Progress, per-fighter skill ranks/equipment/unlocks, match history, settings, selected fighter, credits and tournament state are stored locally.
+- Skill upgrades affect only the selected fighter, cost 1 point for rank 2 and 2 for rank 3, and increase move damage by at most 5% each rank. The locker grants starter equipment and unlocks royal/neon cosmetics at that fighter's level 3/7. Cosmetics do not change stats and do not alter match sprites.
+- CPU has Easy, Normal and Hard reaction cadence, approach/block choices, special use and archetype preferences. CPU reactions are delayed rather than frame-perfect.
+- Original portraits are integrated in the selection, skill, inventory, progression, HUD, results and history UI. The ring fighters remain temporary procedural visuals until a complete clean sprite set is authored.
+
+This is a standalone local game. It does not include online multiplayer, token utility, paid items, wallet integration, dynamic matchmaking, audio files, or production animation rigs. Browser gameplay was not runtime-tested in this environment; see `TEST_REPORT.md`.
