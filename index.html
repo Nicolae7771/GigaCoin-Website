@@ -1,17 +1,248 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#08070c"><meta name="description" content="Play GigaCoin Arena, a local wrestling fighting game.">
-  <title>GigaCoin Arena — Play</title><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="game.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GigaCoin | Competitive Web3 Gaming Vision</title>
+  <meta name="description" content="GigaCoin is a competitive Web3 gaming concept centered around wrestling-inspired arenas, rankings, and future token utility." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>:root {
+  --bg: #080808;
+  --bg-soft: #111111;
+  --panel: rgba(22,22,22,0.85);
+  --line: rgba(234, 179, 75, 0.20);
+  --gold: #e7b14f;
+  --gold-light: #ffd989;
+  --text: #f6efe2;
+  --muted: #d2c2a1;
+  --shadow: 0 18px 48px rgba(0,0,0,0.45);
+  --radius: 24px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at top right, rgba(231,177,79,0.12), transparent 22%),linear-gradient(180deg,#060606,#0b0b0b 55%,#050505);line-height:1.6}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+.container{width:min(1160px,calc(100% - 40px));margin:0 auto}
+.site-header{position:sticky;top:0;z-index:100;background:rgba(8,8,8,0.78);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,0.05)}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:82px}
+.brand{display:inline-flex;align-items:center;gap:12px;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:700}
+.brand-mark{width:40px;height:40px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold-light),#aa7415);color:#090909;box-shadow:0 8px 24px rgba(231,177,79,0.26)}
+.brand-text{font-size:1.05rem;letter-spacing:.02em}
+.nav-links{display:flex;align-items:center;gap:20px}.nav-links a{color:var(--muted);font-size:.95rem}.nav-links a:hover{color:var(--text)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:0 22px;min-height:48px;border-radius:999px;font-weight:700;transition:.2s ease}.btn:hover{transform:translateY(-1px)}
+.btn-gold{background:linear-gradient(135deg,var(--gold-light),#e7b14f 60%,#9e6712);color:#090909;box-shadow:0 14px 30px rgba(231,177,79,0.24)}
+.btn-dark{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.09);color:var(--text)}
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden}.hero-bg,.hero-overlay{position:absolute;inset:0}.hero-bg{background-size:cover;background-position:center;opacity:.34}.hero-overlay{background:linear-gradient(90deg,rgba(6,6,6,.9) 0%,rgba(6,6,6,.74) 45%,rgba(6,6,6,.9) 100%),linear-gradient(180deg,rgba(6,6,6,.25),rgba(6,6,6,.88))}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center;padding:110px 0 70px}
+.eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.22em;color:var(--gold-light);font-size:.78rem;margin-bottom:16px}
+h1,h2,h3{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.08;margin:0 0 14px}h1{font-size:clamp(2.8rem,6vw,5.4rem)}h2{font-size:clamp(2rem,4vw,3.1rem)}h3{font-size:1.2rem}
+.lead,.section-heading p,.text-panel p,.card p,.timeline-item p,.footer-copy,.footer-note,.faq-item p,.utility-box span{color:var(--muted)}
+.hero-buttons{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0 18px}.disclaimer{color:#c7b188;font-size:.94rem}.coin-shell{padding:16px;border-radius:34px;background:rgba(0,0,0,0.25);border:1px solid rgba(231,177,79,0.16);box-shadow:var(--shadow)}.coin-shell img{border-radius:24px;width:100%}
+.section{padding:88px 0}.alt{background:rgba(255,255,255,0.015)}.split-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;align-items:center}.panel{background:linear-gradient(180deg,rgba(255,255,255,0.035),rgba(255,255,255,0.02));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.text-panel{padding:30px}.image-panel{padding:14px}.image-panel img{width:100%;border-radius:18px}
+.check-list{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}.check-list li{padding-left:28px;position:relative;color:var(--muted)}.check-list li::before{content:'◆';position:absolute;left:0;top:0;color:var(--gold-light)}
+.section-heading{max-width:780px;margin:0 auto 28px}.center{text-align:center}.grid{display:grid;gap:18px}.cards-3{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:18px}.card{padding:24px}.media-2{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px}
+.utility-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:22px}.utility-box{background:rgba(231,177,79,0.06);border:1px solid rgba(231,177,79,0.14);border-radius:18px;padding:18px;display:grid;gap:8px}.utility-box strong{font-size:1rem}
+.coin-small img{max-width:520px;margin-inline:auto}
+.timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.timeline-item{padding:24px}.phase{display:inline-block;padding:8px 12px;border-radius:999px;background:rgba(231,177,79,.1);color:var(--gold-light);font-size:.84rem;font-weight:700;margin-bottom:14px}
+.faq-list{display:grid;gap:14px}.faq-item{padding:0 22px}.faq-item summary{cursor:pointer;list-style:none;padding:20px 0;font-weight:700}.faq-item summary::-webkit-details-marker{display:none}.faq-item p{padding:0 0 20px;margin:0}
+.final{padding-top:52px}.cta{display:flex;align-items:center;justify-content:space-between;gap:26px;padding:34px}.cta-buttons{display:flex;flex-wrap:wrap;gap:14px}
+.site-footer{padding:30px 0 42px;border-top:1px solid rgba(255,255,255,0.06)}.footer-wrap{display:flex;justify-content:space-between;gap:24px;align-items:center}.footer-brand{margin-bottom:10px}.footer-note{max-width:560px}
+@media (max-width:1024px){.cards-3,.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:860px){.nav-links{display:none}.hero-grid,.split-layout,.cards-3,.media-2,.timeline,.utility-grid,.footer-wrap,.cta{grid-template-columns:1fr;flex-direction:column}.hero{min-height:auto}.reverse-mobile>:first-child{order:2}.reverse-mobile>:last-child{order:1}}
+@media (max-width:640px){.container{width:min(100% - 26px,1160px)}.nav-wrap{min-height:74px}.section{padding:72px 0}h1{font-size:clamp(2.4rem,10vw,3.8rem)}h2{font-size:clamp(1.8rem,8vw,2.6rem)}.text-panel,.card,.timeline-item,.cta{padding:22px}.image-panel{padding:10px}}
+
+/* GigaCoin launch night announcement */
+.launch-section{padding-top:14px}.launch-card{position:relative;overflow:hidden;padding:clamp(26px,5vw,58px);border-color:#b08a4770;background:radial-gradient(ellipse at 86% 12%,#6c3a9d55,transparent 40%),linear-gradient(120deg,#151017,#08080b 66%,#211629);box-shadow:inset 0 0 0 1px #e6b64e12,0 24px 70px #0008}.launch-card:after{content:'G';position:absolute;right:5%;top:-45%;font-size:clamp(220px,34vw,440px);font-weight:1000;line-height:1;color:#e6b64e0a;pointer-events:none}.launch-card h2{font-size:clamp(36px,6vw,68px);line-height:1.02;margin:14px 0}.launch-card h2 span{color:#f2d37d}.launch-card p{max-width:620px;color:#c6b99f}.launch-details{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;max-width:760px;margin:26px 0;background:#9a763c66;border:1px solid #9a763c66}.launch-details div{display:grid;gap:5px;padding:16px;background:#0c0b10}.launch-details small{font-size:9px;letter-spacing:.16em;color:#b5a17d}.launch-details strong{font-size:14px;color:#f3dfad}@media(max-width:620px){.launch-details{grid-template-columns:1fr}.launch-card{padding:25px 18px}}
+</style>
 </head>
 <body>
-<header class="topbar"><a class="brand" href="../index.html"><img src="../gigacoin-coin.webp" alt=""><span>GIGA<span class="gold">COIN</span> <small>ARENA</small></span></a><nav><a href="../index.html">Website</a><button data-screen="fighters">Play Game</button><button data-screen="training">Training</button><button data-screen="tournament">Tournament</button><button data-screen="progression">Progression</button><button data-screen="skills">Skills</button><button data-screen="inventory">Locker</button><button data-screen="history">History</button><button data-screen="settings">Options</button></nav><span class="wallet"><b id="credits">0</b> ARENA CREDITS</span></header>
-<main>
-<section class="intro"><div><p class="eyebrow">THE LOCAL WRESTLING EXPERIENCE</p><h1>ENTER THE<br><span>GIGA ARENA</span></h1><p>Pick your fighter. Step into the ring. Earn your place.</p><button class="gold-button" data-screen="fighters">PLAY GAME <span>↗</span></button></div><div class="intro-art"><img src="../gigacoin-cover.webp" alt="GigaCoin arena artwork"><div class="live-tag"><i></i> LOCAL EXHIBITION</div></div></section>
-<section class="game-shell" id="play"><div class="game-heading"><div><p class="eyebrow">GIGA ARENA</p><h2 id="screen-title">CHOOSE YOUR FIGHTER</h2></div><div class="screen-tabs"><button class="selected" data-screen="fighters">FIGHT</button><button data-screen="training">TRAINING</button><button data-screen="tournament">TOURNAMENT</button><button data-screen="progression">PROGRESSION</button><button data-screen="skills">SKILLS</button><button data-screen="inventory">LOCKER</button><button data-screen="history">HISTORY</button><button data-screen="settings">OPTIONS</button></div></div>
-<div id="view"></div>
-</section>
-<footer><span>GigaCoin Arena</span><span>Local game progress is stored in this browser. Arena Credits have no token or cash value.</span><a href="https://x.com/GigaSolanaCoin" target="_blank" rel="noopener">X ↗</a><a href="https://t.me/GigaOfficialCoin" target="_blank" rel="noopener">Telegram ↗</a><a href="https://gigacoin.onrender.com/" target="_blank" rel="noopener">Official site ↗</a></footer>
-</main><script type="module" src="engine.js"></script>
-</body></html>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-mark">G</span>
+        <span class="brand-text">GigaCoin</span>
+      </a>
+      <nav class="nav-links"><a href="arena-play.html">Play Game</a>
+        <a href="#overview">Overview</a>
+        <a href="#game">Game</a>
+        <a href="#utility">Token Utility</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-gold" href="#community">Community ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="overview">
+      <div class="hero-bg" style="background-image:url('gigacoin-cover.webp');"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">SOLANA GAMING • PROJECT VISION</div>
+          <h1>Enter the ring.<br>Become GIGA.</h1>
+          <p class="lead">GigaCoin is a competitive Web3 gaming concept built around wrestling-inspired battles, rankings, player progression, and a future crypto-powered ecosystem.</p>
+          <div class="hero-buttons">
+          <a class="btn btn-gold" href="arena-play.html">PLAY GAME</a>
+            <a class="btn btn-dark" href="#roadmap">View roadmap</a>
+          </div>
+          <p class="disclaimer">Free local game • No token payouts or multiplayer service</p>
+        </div>
+        <div class="hero-visual">
+          <div class="coin-shell">
+            <img src="gigacoin-coin.webp" alt="GigaCoin coin design" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-layout">
+        <div class="panel text-panel">
+          <div class="eyebrow">WHAT GIGACOIN IS</div>
+          <h2>A Web3 project with a competitive core.</h2>
+          <p>GigaCoin is envisioned as a gaming-led token project inspired by high-energy wrestling entertainment. The idea is to create a memorable brand around skill-based competition, arena progression, tournament culture, and a future token ecosystem that can support the wider game vision.</p>
+          <ul class="check-list">
+            <li>Strong black-and-gold identity</li>
+            <li>Competition-focused community concept</li>
+            <li>Wrestling-inspired arena gameplay vision</li>
+            <li>Future token utility across the ecosystem</li>
+          </ul>
+        </div>
+        <div class="panel image-panel">
+          <img src="arena.svg" alt="Arena gameplay concept illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="game">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">GAME VISION</div>
+          <h2>Competitive action with progression and identity.</h2>
+          <p>Enter the local Giga Arena for CPU bouts, training, tournament progression, fighter skills and cosmetic equipment. Online play and token rewards are not part of this release.</p>
+        </div>
+        <div class="grid cards-3">
+          <article class="panel card">
+            <h3>Arena Battles</h3>
+            <p>Fast, competitive matches inspired by pro-wrestling presentation and over-the-top personality.</p>
+          </article>
+          <article class="panel card">
+            <h3>Rank Progression</h3>
+            <p>Players aim to improve, win consistently, and move up through increasingly prestigious ranks.</p>
+          </article>
+          <article class="panel card">
+            <h3>Community Events</h3>
+            <p>Future tournaments, limited events, and community-driven competition are central to the vision.</p>
+          </article>
+        </div>
+        <div class="grid media-2">
+          <div class="panel image-panel"><img src="progression.svg" alt="Progression system concept" /></div>
+          <div class="panel image-panel"><img src="rewards.svg" alt="Rewards ecosystem concept" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section launch-section" id="launch">
+      <div class="container">
+        <div class="panel launch-card">
+          <div class="eyebrow">GIGA ARENA · THE BELL IS SET</div>
+          <h2>Fight night starts<br><span>November 21, 2026.</span></h2>
+          <p>The GigaCoin launch card is on the arena board. Follow official channels for confirmed details as the bout approaches.</p>
+          <div class="launch-details"><div><small>LAUNCH DATE</small><strong>21 NOV 2026</strong></div><div><small>UTC BELL TIME</small><strong>To be confirmed</strong></div><div><small>TICKER & CONTRACT</small><strong>To be confirmed</strong></div></div>
+          <a class="btn btn-gold" href="https://x.com/GigaSolanaCoin" target="_blank" rel="noopener">FOLLOW THE OFFICIAL CORNER ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="utility">
+      <div class="container split-layout reverse-mobile">
+        <div class="panel image-panel coin-small">
+          <img src="gigacoin-coin.webp" alt="GigaCoin token visual" />
+        </div>
+        <div class="panel text-panel">
+          <div class="eyebrow">TOKEN UTILITY</div>
+          <h2>What the token is meant to do.</h2>
+          <p>The GigaCoin token is envisioned as the utility layer supporting the future project ecosystem. Its role is planned around game participation, rewards, community status, and future ecosystem access.</p>
+          <div class="utility-grid">
+            <div class="utility-box"><strong>Rewards</strong><span>Potential use for competitive incentives and ecosystem rewards.</span></div>
+            <div class="utility-box"><strong>Access</strong><span>Could support special events, premium experiences, or future in-game utilities.</span></div>
+            <div class="utility-box"><strong>Community</strong><span>Designed to strengthen identity, participation, and long-term community engagement.</span></div>
+            <div class="utility-box"><strong>Expansion</strong><span>Potential integration with tournaments, cosmetics, progression, or other future mechanics.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="roadmap">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">ROADMAP</div>
+          <h2>Current project direction.</h2>
+          <p>GigaCoin is currently an early-stage concept. The roadmap below describes the intended rollout direction.</p>
+        </div>
+        <div class="timeline">
+          <article class="panel timeline-item"><span class="phase">Phase 1</span><h3>Brand & Social Launch</h3><p>Create identity, social presence, and public-facing project channels.</p></article>
+          <article class="panel timeline-item"><span class="phase">Phase 2</span><h3>Website & Listings</h3><p>Publish the project website and establish visibility across listing platforms.</p></article>
+          <article class="panel timeline-item"><span class="phase">Phase 3</span><h3>Game Concept Expansion</h3><p>Refine gameplay direction, player experience concepts, and potential reward systems.</p></article>
+          <article class="panel timeline-item"><span class="phase">Phase 4</span><h3>Future Ecosystem Rollout</h3><p>Potential token launch, ecosystem development, and further product expansion.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">FAQ</div>
+          <h2>Frequently asked questions.</h2>
+        </div>
+        <div class="faq-list">
+          <details class="panel faq-item" open>
+            <summary>Is GigaCoin live?</summary>
+            <p>No. GigaCoin is currently a concept-stage project with public branding, social channels, and website infrastructure being prepared.</p>
+          </details>
+          <details class="panel faq-item">
+            <summary>What kind of project is GigaCoin?</summary>
+            <p>It is a Web3 gaming concept centered around a wrestling-inspired competitive experience and a future token ecosystem.</p>
+          </details>
+          <details class="panel faq-item">
+            <summary>Is the game available now?</summary>
+            <p>A free local browser game is available now. It includes CPU matches, training, local tournament progression and browser-saved progress. Multiplayer and token rewards are not included.</p>
+          </details>
+          <details class="panel faq-item">
+            <summary>What is the token intended for?</summary>
+            <p>The intended role of the token is ecosystem utility, community engagement, and support for future game-related functions.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final" id="community">
+      <div class="container">
+        <div class="panel cta">
+          <div>
+            <div class="eyebrow">COMMUNITY</div>
+            <h2>Follow GigaCoin.</h2>
+            <p>Join the official channels to follow announcements, updates, and future project developments.</p>
+          </div>
+          <div class="cta-buttons">
+            <a class="btn btn-gold" href="https://x.com/GigaSolanaCoin" target="_blank" rel="noopener">X / Twitter</a>
+            <a class="btn btn-dark" href="https://t.me/GigaOfficialCoin" target="_blank" rel="noopener">Telegram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <div class="brand footer-brand"><span class="brand-mark">G</span><span class="brand-text">GigaCoin</span></div>
+        <p class="footer-copy">Strength. Competition. Dominance.</p>
+      </div>
+      <p class="footer-note">Disclaimer: The Giga Arena is a local browser game. Arena Credits are fictional in-game points with no cryptocurrency value. Token utility and online services are not included. <a href="https://gigacoin.onrender.com/">Official GigaCoin website ↗</a></p>
+    </div>
+  </footer>
+</body>
+</html>
