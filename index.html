@@ -6,11 +6,8 @@
   <title>GigaCoin | Competitive Web3 Gaming Vision</title>
   <meta name="description" content="GigaCoin is a competitive Web3 gaming concept centered around wrestling-inspired arenas, rankings, and future token utility." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-</head>
+<link rel="stylesheet" href="interactive-lab.css"></head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
@@ -18,7 +15,7 @@
         <span class="brand-mark">G</span>
         <span class="brand-text">GigaCoin</span>
       </a>
-      <nav class="nav-links">
+      <nav class="nav-links"><a href="#interactive-lab">Try demo</a>
         <a href="#overview">Overview</a>
         <a href="#game">Game</a>
         <a href="#utility">Token Utility</a>
@@ -42,7 +39,7 @@
             <a class="btn btn-gold" href="#game">Explore the vision</a>
             <a class="btn btn-dark" href="#roadmap">View roadmap</a>
           </div>
-          <p class="disclaimer">Concept-stage project • No live game or token is currently active</p>
+          <p class="disclaimer">Playable local wrestling preview • No live token or multiplayer service</p>
         </div>
         <div class="hero-visual">
           <div class="coin-shell">
@@ -50,7 +47,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section><section id="interactive-lab" class="lab" style="--lab-accent:#efc267"><span class="lab-kicker">Playable wrestling prototype</span><h2>Giga Arena: Championship Preview</h2><p>Choose a fighter and take on a CPU rival in a short, original wrestling-inspired exhibition. No real-money rewards, licensed WWE characters or affiliation.</p><div class="lab-wrap"><div class="lab-row"><span class="lab-tag">EXHIBITION · LOCAL GAME</span><span id="gStatus" class="lab-status" role="status">Choose your fighter and start.</span></div><div class="lab-grid"><div class="lab-card"><label for="gFighter">Fighter</label><select id="gFighter"><option value="power">Titan · Power</option><option value="speed">Viper · Speed</option><option value="balance">Iron King · Balanced</option></select></div><div class="lab-card"><label for="gDifficulty">Opponent</label><select id="gDifficulty"><option value="1">Rookie</option><option value="1.35">Champion</option></select></div></div><button id="gStart">Start match</button><canvas id="gArena" width="960" height="500" tabindex="0" aria-label="Wrestling exhibition game"></canvas><div class="lab-controls"><button data-g="left">◀</button><button data-g="right">▶</button><button data-g="strike">Strike / J</button><button data-g="grapple">Grapple / K</button><button data-g="block">Block / L</button><button data-g="finish">Finisher / U</button></div><p class="lab-note">Keyboard: A/D or arrow keys to move; J strike, K grapple, L block, U finisher. Mobile: hold movement/block buttons; tap attacks. Build your meter by landing hits, then use a finisher in range. Win by draining your rival’s health. Exhibition only.</p></div></section>
 
     <section class="section">
       <div class="container split-layout">
@@ -151,7 +148,7 @@
           </details>
           <details class="panel faq-item">
             <summary>Is the game available now?</summary>
-            <p>No live game is available yet. The gameplay vision is planned for future development.</p>
+            <p>A free local exhibition prototype is available in the interactive preview above. Multiplayer, tournaments and token rewards remain future goals.</p>
           </details>
           <details class="panel faq-item">
             <summary>What is the token intended for?</summary>
@@ -184,9 +181,8 @@
         <div class="brand footer-brand"><span class="brand-mark">G</span><span class="brand-text">GigaCoin</span></div>
         <p class="footer-copy">Strength. Competition. Dominance.</p>
       </div>
-      <p class="footer-note">Disclaimer: GigaCoin is currently a concept-stage project. Features, token utility, and gameplay described on this site represent the intended vision, not live functionality.</p>
+      <p class="footer-note">Disclaimer: GigaCoin is currently a concept-stage project. The exhibition is a local prototype. Full gameplay, token utility and online services remain planned.</p>
     </div>
   </footer>
-  <script src="script.js"></script>
-</body>
+<script src="interactive-lab.js" defer></script></body>
 </html>
