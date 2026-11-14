@@ -1,0 +1,2914 @@
+{
+  "schemaVersion": 1,
+  "frameContract": {
+    "width": 512,
+    "height": 512,
+    "format": "PNG RGBA",
+    "pivot": {
+      "x": 256,
+      "y": 448
+    }
+  },
+  "sourceRoot": "C:\\Users\\test\\Documents\\Codex\\2026-11-13\\files-mentioned-by-the-user-gigacoin\\work\\phase4b_artwork",
+  "warning": "Provisional pose sequences are not production-complete state sets. Each emitted image uses a distinct source cell; never inflate frame counts by duplicate poses.",
+  "accepted": [
+    {
+      "fighterId": "giga_champion",
+      "state": "jab_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/jab_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            627,
+            313,
+            940
+          ],
+          "sourceBounds": [
+            12,
+            19,
+            267,
+            297
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.433692,
+          "edgeMattePixelsRemoved": 57061,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/giga_champion/jab_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            627,
+            627,
+            940
+          ],
+          "sourceBounds": [
+            16,
+            16,
+            302,
+            297
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.41844,
+          "edgeMattePixelsRemoved": 57310,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "giga_champion",
+      "state": "heavy_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/heavy_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "sourceBounds": [
+            13,
+            16,
+            306,
+            297
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.41844,
+          "edgeMattePixelsRemoved": 51471,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "giga_champion",
+      "state": "kick_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/kick_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            940,
+            313,
+            1254
+          ],
+          "sourceBounds": [
+            12,
+            8,
+            303,
+            299
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.369863,
+          "edgeMattePixelsRemoved": 57620,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "giga_champion",
+      "state": "block_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/block_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            940,
+            627,
+            1254
+          ],
+          "sourceBounds": [
+            16,
+            16,
+            273,
+            300
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.403509,
+          "edgeMattePixelsRemoved": 53641,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "giga_champion",
+      "state": "hit_reaction_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/hit_reaction_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "sourceBounds": [
+            13,
+            25,
+            289,
+            300
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.449275,
+          "edgeMattePixelsRemoved": 51765,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "giga_champion",
+      "state": "victory_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/victory_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "sourceBounds": [
+            15,
+            6,
+            293,
+            301
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.351351,
+          "edgeMattePixelsRemoved": 45162,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "giga_champion",
+      "state": "special_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/giga_champion/special_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_s_royal_giga_slam_sprite_sheet.png",
+          "grid": {
+            "rows": 2,
+            "cols": 5
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            396,
+            396
+          ],
+          "sourceBounds": [
+            21,
+            46,
+            345,
+            365
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.25,
+          "edgeMattePixelsRemoved": 3,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/giga_champion/special_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_s_royal_giga_slam_sprite_sheet.png",
+          "grid": {
+            "rows": 2,
+            "cols": 5
+          },
+          "cell": {
+            "row": 0,
+            "col": 1
+          },
+          "cellRect": [
+            396,
+            0,
+            793,
+            396
+          ],
+          "sourceBounds": [
+            44,
+            59,
+            393,
+            369
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.286174,
+          "edgeMattePixelsRemoved": 3,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/giga_champion/special_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_s_royal_giga_slam_sprite_sheet.png",
+          "grid": {
+            "rows": 2,
+            "cols": 5
+          },
+          "cell": {
+            "row": 0,
+            "col": 2
+          },
+          "cellRect": [
+            793,
+            0,
+            1189,
+            396
+          ],
+          "sourceBounds": [
+            33,
+            66,
+            386,
+            369
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.315789,
+          "edgeMattePixelsRemoved": 12,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/giga_champion/special_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_s_royal_giga_slam_sprite_sheet.png",
+          "grid": {
+            "rows": 2,
+            "cols": 5
+          },
+          "cell": {
+            "row": 1,
+            "col": 1
+          },
+          "cellRect": [
+            396,
+            396,
+            793,
+            793
+          ],
+          "sourceBounds": [
+            26,
+            40,
+            375,
+            377
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.183432,
+          "edgeMattePixelsRemoved": 2276,
+          "detachedEffectPixelsRemoved": 1,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 5,
+          "file": "game/assets/fighters/giga_champion/special_provisional/frame_005.png",
+          "source": "01_Fighter_Sprite_Sheets/giga_champion/giga_champion_s_royal_giga_slam_sprite_sheet.png",
+          "grid": {
+            "rows": 2,
+            "cols": 5
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            793,
+            396,
+            1189,
+            793
+          ],
+          "sourceBounds": [
+            16,
+            91,
+            384,
+            379
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.384083,
+          "edgeMattePixelsRemoved": 464,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "idle_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/idle_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            51,
+            8,
+            240,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.342282,
+          "edgeMattePixelsRemoved": 70806,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/viper_dash/idle_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            0,
+            627,
+            313
+          ],
+          "sourceBounds": [
+            49,
+            10,
+            240,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.351351,
+          "edgeMattePixelsRemoved": 72909,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "walk_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/walk_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_anime_fighting_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            313,
+            313,
+            627
+          ],
+          "sourceBounds": [
+            56,
+            16,
+            262,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.37931,
+          "edgeMattePixelsRemoved": 3153,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/viper_dash/walk_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_anime_fighting_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            313,
+            627,
+            627
+          ],
+          "sourceBounds": [
+            86,
+            15,
+            218,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.37931,
+          "edgeMattePixelsRemoved": 1694,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/viper_dash/walk_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_anime_fighting_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            28,
+            35,
+            239,
+            300
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.503759,
+          "edgeMattePixelsRemoved": 2,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/viper_dash/walk_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_anime_fighting_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            25,
+            29,
+            282,
+            281
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.581028,
+          "edgeMattePixelsRemoved": 1,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "jab_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/jab_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            42,
+            9,
+            256,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.351351,
+          "edgeMattePixelsRemoved": 425,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/viper_dash/jab_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            0,
+            627,
+            313
+          ],
+          "sourceBounds": [
+            43,
+            13,
+            292,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.369863,
+          "edgeMattePixelsRemoved": 0,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/viper_dash/jab_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            0,
+            940,
+            313
+          ],
+          "sourceBounds": [
+            43,
+            10,
+            257,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 337,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "heavy_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/heavy_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "sourceBounds": [
+            12,
+            15,
+            301,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.384083,
+          "edgeMattePixelsRemoved": 65038,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "kick_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/kick_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            11,
+            11,
+            297,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.351351,
+          "edgeMattePixelsRemoved": 133,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/viper_dash/kick_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            15,
+            5,
+            294,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.328904,
+          "edgeMattePixelsRemoved": 499,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "block_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/block_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            940,
+            627,
+            1254
+          ],
+          "sourceBounds": [
+            45,
+            25,
+            262,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.428571,
+          "edgeMattePixelsRemoved": 72345,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "hit_reaction_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/hit_reaction_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            940,
+            313,
+            1254
+          ],
+          "sourceBounds": [
+            26,
+            18,
+            284,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.398601,
+          "edgeMattePixelsRemoved": 148,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "viper_dash",
+      "state": "victory_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/viper_dash/victory_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/viper_dash/viper_dash_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "sourceBounds": [
+            63,
+            11,
+            271,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.360544,
+          "edgeMattePixelsRemoved": 73664,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "idle_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/idle_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            59,
+            16,
+            250,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.37457,
+          "edgeMattePixelsRemoved": 72054,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/volt_lucha/idle_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            0,
+            627,
+            313
+          ],
+          "sourceBounds": [
+            60,
+            9,
+            250,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.342282,
+          "edgeMattePixelsRemoved": 71139,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "walk_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/walk_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            313,
+            313,
+            627
+          ],
+          "sourceBounds": [
+            50,
+            11,
+            248,
+            307
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.346801,
+          "edgeMattePixelsRemoved": 72836,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/volt_lucha/walk_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            313,
+            627,
+            627
+          ],
+          "sourceBounds": [
+            49,
+            10,
+            226,
+            307
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.342282,
+          "edgeMattePixelsRemoved": 75823,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/volt_lucha/walk_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            59,
+            10,
+            237,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 75845,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/volt_lucha/walk_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            76,
+            9,
+            242,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 76970,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "jab_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/jab_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            627,
+            313,
+            940
+          ],
+          "sourceBounds": [
+            47,
+            15,
+            245,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.369863,
+          "edgeMattePixelsRemoved": 71896,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/volt_lucha/jab_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            627,
+            940,
+            940
+          ],
+          "sourceBounds": [
+            37,
+            12,
+            246,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 69336,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "heavy_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/heavy_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "sourceBounds": [
+            20,
+            10,
+            309,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.346801,
+          "edgeMattePixelsRemoved": 66744,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "kick_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/kick_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_thunder_tornado_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            14,
+            11,
+            295,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 0,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "block_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/block_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            940,
+            627,
+            1254
+          ],
+          "sourceBounds": [
+            47,
+            21,
+            254,
+            307
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.393728,
+          "edgeMattePixelsRemoved": 73406,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "hit_reaction_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/hit_reaction_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "sourceBounds": [
+            38,
+            7,
+            261,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.333333,
+          "edgeMattePixelsRemoved": 68380,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "special_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/special_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_thunder_tornado_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            47,
+            19,
+            245,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.388889,
+          "edgeMattePixelsRemoved": 0,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/volt_lucha/special_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_thunder_tornado_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            0,
+            1254,
+            313
+          ],
+          "sourceBounds": [
+            45,
+            10,
+            248,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.346801,
+          "edgeMattePixelsRemoved": 180,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/volt_lucha/special_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_thunder_tornado_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            14,
+            12,
+            290,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.360544,
+          "edgeMattePixelsRemoved": 0,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/volt_lucha/special_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_thunder_tornado_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            627,
+            313,
+            940
+          ],
+          "sourceBounds": [
+            40,
+            3,
+            241,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.324503,
+          "edgeMattePixelsRemoved": 113,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 5,
+          "file": "game/assets/fighters/volt_lucha/special_provisional/frame_005.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_thunder_tornado_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            627,
+            627,
+            940
+          ],
+          "sourceBounds": [
+            36,
+            6,
+            247,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.333333,
+          "edgeMattePixelsRemoved": 3,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "volt_lucha",
+      "state": "victory_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/volt_lucha/victory_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/volt_lucha/volt_lucha_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "sourceBounds": [
+            57,
+            4,
+            272,
+            307
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.315789,
+          "edgeMattePixelsRemoved": 72036,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "idle_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/idle_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_4_4_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            43,
+            7,
+            258,
+            309
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.320132,
+          "edgeMattePixelsRemoved": 16253,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/titan_rex/idle_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_4_4_action_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            0,
+            627,
+            313
+          ],
+          "sourceBounds": [
+            36,
+            6,
+            260,
+            308
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.320132,
+          "edgeMattePixelsRemoved": 17970,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "walk_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/walk_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            313,
+            313,
+            627
+          ],
+          "sourceBounds": [
+            30,
+            11,
+            260,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.365188,
+          "edgeMattePixelsRemoved": 8439,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/titan_rex/walk_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            313,
+            627,
+            627
+          ],
+          "sourceBounds": [
+            37,
+            9,
+            313,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.351351,
+          "edgeMattePixelsRemoved": 7699,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/titan_rex/walk_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            0,
+            25,
+            272,
+            299
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.454545,
+          "edgeMattePixelsRemoved": 13226,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/titan_rex/walk_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            10,
+            27,
+            299,
+            293
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.498127,
+          "edgeMattePixelsRemoved": 18224,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional locomotion pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "jab_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/jab_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            627,
+            313,
+            940
+          ],
+          "sourceBounds": [
+            22,
+            25,
+            258,
+            287
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.520913,
+          "edgeMattePixelsRemoved": 12792,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/titan_rex/jab_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            627,
+            627,
+            940
+          ],
+          "sourceBounds": [
+            11,
+            68,
+            270,
+            286
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.826484,
+          "edgeMattePixelsRemoved": 2396,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/titan_rex/jab_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            627,
+            940,
+            940
+          ],
+          "sourceBounds": [
+            20,
+            31,
+            263,
+            286
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.5625,
+          "edgeMattePixelsRemoved": 7946,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "heavy_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/heavy_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "sourceBounds": [
+            16,
+            17,
+            297,
+            285
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.486989,
+          "edgeMattePixelsRemoved": 14293,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "kick_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/kick_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_fighting_game_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            940,
+            313,
+            1254
+          ],
+          "sourceBounds": [
+            0,
+            0,
+            304,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.315789,
+          "edgeMattePixelsRemoved": 32271,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "block_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/block_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            940,
+            627,
+            1254
+          ],
+          "sourceBounds": [
+            17,
+            4,
+            267,
+            216
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.877934,
+          "edgeMattePixelsRemoved": 1884,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "hit_reaction_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/hit_reaction_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "sourceBounds": [
+            0,
+            55,
+            269,
+            298
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.639344,
+          "edgeMattePixelsRemoved": 11664,
+          "detachedEffectPixelsRemoved": 9,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "titan_rex",
+      "state": "victory_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/titan_rex/victory_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/titan_rex/titan_rex_arcade_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "sourceBounds": [
+            18,
+            7,
+            262,
+            301
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 9412,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "idle_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/idle_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            71,
+            7,
+            231,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.337793,
+          "edgeMattePixelsRemoved": 75588,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/nova_blaze/idle_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            0,
+            627,
+            313
+          ],
+          "sourceBounds": [
+            70,
+            8,
+            236,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.342282,
+          "edgeMattePixelsRemoved": 76375,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional idle pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "walk_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/walk_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_animation_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            313,
+            313,
+            627
+          ],
+          "sourceBounds": [
+            80,
+            11,
+            258,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.365188,
+          "edgeMattePixelsRemoved": 78919,
+          "detachedEffectPixelsRemoved": 6,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/nova_blaze/walk_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_animation_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            313,
+            627,
+            627
+          ],
+          "sourceBounds": [
+            95,
+            11,
+            232,
+            301
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.37457,
+          "edgeMattePixelsRemoved": 81482,
+          "detachedEffectPixelsRemoved": 2,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/nova_blaze/walk_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_animation_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            65,
+            19,
+            258,
+            300
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.41844,
+          "edgeMattePixelsRemoved": 78358,
+          "detachedEffectPixelsRemoved": 4,
+          "classification": "provisional locomotion pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/nova_blaze/walk_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_animation_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            53,
+            16,
+            275,
+            290
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.454545,
+          "edgeMattePixelsRemoved": 79011,
+          "detachedEffectPixelsRemoved": 31,
+          "classification": "provisional locomotion pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "jab_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/jab_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            627,
+            313,
+            940
+          ],
+          "sourceBounds": [
+            57,
+            12,
+            257,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.365188,
+          "edgeMattePixelsRemoved": 74816,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/nova_blaze/jab_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            627,
+            627,
+            940
+          ],
+          "sourceBounds": [
+            52,
+            12,
+            292,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.365188,
+          "edgeMattePixelsRemoved": 72482,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/nova_blaze/jab_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            627,
+            940,
+            940
+          ],
+          "sourceBounds": [
+            39,
+            9,
+            258,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.351351,
+          "edgeMattePixelsRemoved": 71460,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "heavy_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/heavy_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "sourceBounds": [
+            19,
+            12,
+            305,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.365188,
+          "edgeMattePixelsRemoved": 68050,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "kick_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/kick_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            940,
+            313,
+            1254
+          ],
+          "sourceBounds": [
+            25,
+            14,
+            297,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.37457,
+          "edgeMattePixelsRemoved": 75517,
+          "detachedEffectPixelsRemoved": 1,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "block_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/block_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            940,
+            627,
+            1254
+          ],
+          "sourceBounds": [
+            50,
+            14,
+            252,
+            304
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.37457,
+          "edgeMattePixelsRemoved": 73030,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "hit_reaction_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/hit_reaction_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "sourceBounds": [
+            19,
+            15,
+            254,
+            303
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.384083,
+          "edgeMattePixelsRemoved": 71626,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "special_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/special_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 0,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            0,
+            313,
+            313
+          ],
+          "sourceBounds": [
+            63,
+            5,
+            249,
+            308
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.315789,
+          "edgeMattePixelsRemoved": 563,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 2,
+          "file": "game/assets/fighters/nova_blaze/special_provisional/frame_002.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 2
+          },
+          "cellRect": [
+            627,
+            313,
+            940,
+            627
+          ],
+          "sourceBounds": [
+            6,
+            10,
+            294,
+            306
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.346801,
+          "edgeMattePixelsRemoved": 861,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 3,
+          "file": "game/assets/fighters/nova_blaze/special_provisional/frame_003.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 1,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            313,
+            1254,
+            627
+          ],
+          "sourceBounds": [
+            20,
+            9,
+            295,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.346801,
+          "edgeMattePixelsRemoved": 1584,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 4,
+          "file": "game/assets/fighters/nova_blaze/special_provisional/frame_004.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 0
+          },
+          "cellRect": [
+            0,
+            627,
+            313,
+            940
+          ],
+          "sourceBounds": [
+            51,
+            5,
+            239,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.328904,
+          "edgeMattePixelsRemoved": 1713,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        },
+        {
+          "frame": 5,
+          "file": "game/assets/fighters/nova_blaze/special_provisional/frame_005.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_combat_sprite_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 2,
+            "col": 1
+          },
+          "cellRect": [
+            313,
+            627,
+            627,
+            940
+          ],
+          "sourceBounds": [
+            50,
+            4,
+            255,
+            307
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.315789,
+          "edgeMattePixelsRemoved": 2021,
+          "detachedEffectPixelsRemoved": 0,
+          "classification": "provisional combat pose"
+        }
+      ]
+    },
+    {
+      "fighterId": "nova_blaze",
+      "state": "victory_provisional",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "game/assets/fighters/nova_blaze/victory_provisional/frame_001.png",
+          "source": "01_Fighter_Sprite_Sheets/nova_blaze/nova_blaze_first_action_sheet.png",
+          "grid": {
+            "rows": 4,
+            "cols": 4
+          },
+          "cell": {
+            "row": 3,
+            "col": 3
+          },
+          "cellRect": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "sourceBounds": [
+            56,
+            11,
+            258,
+            305
+          ],
+          "targetHeight": 400,
+          "pivot": {
+            "x": 256,
+            "y": 448
+          },
+          "scale": 1.355932,
+          "edgeMattePixelsRemoved": 75673,
+          "detachedEffectPixelsRemoved": 6,
+          "classification": "provisional combat pose"
+        }
+      ]
+    }
+  ]
+}

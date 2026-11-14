@@ -1,17 +1,34 @@
-# GigaCoin Arena
+# GigaCoin Arena Phase 4B
 
-Static website upgrade with a self-contained browser wrestling game at `game/index.html`. The site and game use relative asset paths and require no build step, backend, wallet, API key, or third-party runtime service.
+This is the complete local website package. The public home page is `index.html`; the playable game is `arena-play.html`. The game uses `game/engine.js` as its single runtime source and imports the shared combat helpers and sprite renderer from `game/`.
 
-## Run locally
+## Local checks
 
-Open `index.html` or `game/index.html` in a modern browser. For best compatibility with local storage and browser security policies, serve the folder as a static site (for example, with Python's `python -m http.server` from this directory). Render can serve the folder as a static site.
+From the package root:
 
-See [GAME_CONTROLS.md](GAME_CONTROLS.md), [GAMEPLAY_SYSTEMS.md](GAMEPLAY_SYSTEMS.md), [COMBAT_FIXES_REPORT.md](COMBAT_FIXES_REPORT.md), [ANIMATION_RENDERER.md](ANIMATION_RENDERER.md), [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md), [ASSET_MANIFEST.md](ASSET_MANIFEST.md), [TEST_REPORT.md](TEST_REPORT.md), and [CHANGELOG.md](CHANGELOG.md).
+```sh
+node --test game/tests/combat-core.test.mjs game/tests/sprite-renderer.test.mjs
+node game/tools/validate-sprite-set.mjs
+node game/tools/smoke-audit.mjs
+```
 
-## Art source note
+The sprite set is intentionally partial. Giga Champion has four idle frames and six walk frames. Other fighters use their supplied static combat art for missing animation states.
 
-The supplied design pack was located and inspected. Canonical character artwork is used in portrait crops throughout the game UI. The character sheets are not production sprite atlases, so combat still uses temporary procedural fighters. See [ASSET_INTEGRATION_REPORT.md](ASSET_INTEGRATION_REPORT.md) and `game/assets/animation_manifest.json` for the work done and the exact frame requirements still outstanding.
+## Render package
 
-## Credits and token disclaimer
+Publish the repository root as `.`. To create a compact deployment package that preserves the required nested asset directories:
 
-Arena Credits are local fictional game points. There are no cryptocurrency balances, payouts, wallet connections, or real-money transactions. Save data is stored in browser localStorage and can be erased by clearing browser storage or using Reset Progress.
+```sh
+node game/tools/export-render-package.mjs ../GigaCoin_Render_Package
+```
+
+The exporter writes a new folder and refuses to overwrite an existing one. It checks all relative HTML references and includes `arena-play.html`, the shared game modules, the manifest, fighter frames and effects. No deployment is performed by the exporter.
+
+## Official links
+
+- Website: https://gigacoin.onrender.com/
+- Game: https://gigacoin.onrender.com/arena-play.html
+- X: https://x.com/GigaSolanaCoin
+- Telegram: https://t.me/GigaOfficialCoin
+
+The launch section announces November 21, 2026. UTC time, ticker and contract address remain unconfirmed.
