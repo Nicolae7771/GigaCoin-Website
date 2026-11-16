@@ -18,4 +18,4 @@ The 24 Node tests do not demonstrate live UI behavior. Fighter selection, all sc
 
 ## Link audit
 
-Current local website/game HTML destinations: X appears in two homepage anchors and one game footer anchor as `https://x.com/GigaSolanaCoin`; the Phase 4C flat-fix game footer uses the same destination and displays `@GigaSolanaCoin`. The owner has reported this X link is incorrect; it is unchanged and requires owner confirmation because no replacement handle was supplied. Telegram is `https://t.me/GigaOfficialCoin`; official site is `https://gigacoin.onrender.com/`.
+Current local website/game HTML destinations: X appears in two homepage anchors and one game footer anchor as `https://x.com/GigaSolCoin`; the Phase 4C flat-fix game footer uses the same destination and displays `@GigaSolCoin`. The owner has reported this X link is incorrect; it is unchanged and requires owner confirmation because no replacement handle was supplied. Telegram is `https://t.me/GigaOfficialCoin`; official site is `https://gigacoin.onrender.com/`.

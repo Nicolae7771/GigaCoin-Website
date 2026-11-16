@@ -18,7 +18,7 @@ Contact sheets for Giga Champion, Viper Dash, Volt Lucha, Titan Rex and Nova Bla
 
 The Phase 4D frames are candidates, not production-ready atlases. No fighter has a complete Phase 4D kick trio or full signature sequence. Jump/crouch states are mainly one-pose candidates per phase; there is no new Phase 4D knockdown/recovery/defeat/turn art. The contract remains incomplete at 10 validated production frames of 490. See the coverage and remaining-artwork reports.
 
-X remains at `https://x.com/GigaSolanaCoin` in the source provided. Since the owner said the destination is wrong and no corrected handle was supplied, it is flagged for confirmation and not replaced. Telegram remains `https://t.me/GigaOfficialCoin`.
+X remains at `https://x.com/GigaSolCoin` in the source provided. This is the owner-confirmed replacement for the previously outdated handle. Telegram remains `https://t.me/GigaOfficialCoin`.
 
 ## Runtime/browser status
 

@@ -28,7 +28,7 @@ The exporter writes a new folder and refuses to overwrite an existing one. It ch
 
 - Website: https://gigacoin.onrender.com/
 - Game: https://gigacoin.onrender.com/arena-play.html
-- X: https://x.com/GigaSolanaCoin
+- X: https://x.com/GigaSolCoin
 - Telegram: https://t.me/GigaOfficialCoin
 
 The launch section announces November 21, 2026. UTC time, ticker and contract address remain unconfirmed.
